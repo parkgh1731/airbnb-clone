@@ -25,7 +25,7 @@ class RoomType(AbstractItem):
 class Amenity(AbstractItem):
     """Amenity Model Definition"""
 
-
+    pass
 
 
 class Facility(AbstractItem):
