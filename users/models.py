@@ -28,8 +28,8 @@ class User(AbstractUser):
     CURRENCY_USD = "usd"
 
     CURRENCY_CHOICES = (
-        (CURRENCY_JPY, "USD"),
-        (CURRENCY_USD, "KRW"),
+        (CURRENCY_JPY, "JPY"),
+        (CURRENCY_USD, "USD"),
     )
 
     avatar = models.ImageField(upload_to="avatars", blank=True)
