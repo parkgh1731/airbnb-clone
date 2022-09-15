@@ -6,7 +6,7 @@
     "python.linting.enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=92",
-        "--ignore=E203,W503",
+        "--ignore=E203,W503,E501",
     ],
     "python.analysis.extraPaths": []
 }
